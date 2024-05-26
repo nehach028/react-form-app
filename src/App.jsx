@@ -92,7 +92,7 @@ function App() {
     <Container maxWidth="sm">
       <Box sx={{ bgcolor: '#666666' }}>
         <Stack spacing={2} sx={{ p: 2 }}>
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} name="student-details-form">
             <Paper sx={{ p: 2 }}>
               <Typography variant="h5">
                 Student Personal Detail Form
