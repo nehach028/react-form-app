@@ -25,7 +25,7 @@ const FormButtons = ({ loading, handleCancel }) => {
           gap: 3,
         }}
       >
-        <Button variant="outlined" sx={{ width: '50%', textTransform: 'none' }} size="large" onClick={handleCancel} type='cancel' >Cancel</Button>
+        <Button variant="outlined" sx={{ width: '50%', textTransform: 'none' }} size="large" onClick={handleCancel}>Cancel</Button>
         <Button variant="contained" sx={{ width: '50%', textTransform: 'none' }} size="large" type='submit'>Submit</Button>
       </Box>
     </Paper>

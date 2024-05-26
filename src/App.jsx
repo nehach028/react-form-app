@@ -76,7 +76,6 @@ function App() {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true)
-
     if (fieldHasError(fieldError) || isRequiredFieldsEmpty(formData)) {
       setSuccess(false);
       setLoading(false);
