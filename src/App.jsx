@@ -79,7 +79,7 @@ function App() {
     if (fieldHasError(fieldError) || isRequiredFieldsEmpty(formData)) {
       setSuccess(false);
       setLoading(false);
-      return alert("Ops!! Error has occurred, Please check required input fields.")
+      return alert("Error: Please ensure all fields are filled out.")
     } else {
       setSuccess(true)
       return alert("Form has submitted Successfully.")
